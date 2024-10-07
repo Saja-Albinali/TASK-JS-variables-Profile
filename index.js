@@ -10,11 +10,12 @@
  */
 
 // Part 1 answer 👇🏻 ...
-
-
-
-
-
+let fullName = "saja al bin ali";
+let yearOfBirth = 2000;
+let hobby = "swimming";
+let funFact = "i love movies";
+const image =
+  "https://1drv.ms/i/c/8aac989f98b604ba/EWNr6Y8KyiBAjLIsAwXf3JgBpIvVCDbM6OnAyIR2V_zgqw?e=xCnTNL";
 
 /**
  * Part 2: String Interpolation
@@ -24,18 +25,21 @@
  * 1. fullNameString      -> assign it to: My name is {fullName}
  * 2. yearOfBirthString   -> assign it to: I am {YOUR_AGE}, and make sure you calculate your age from your year of birth
  * 3. hobbyString         -> assign it to: My hobby is {YOUR_HOBBY}
- * 
+ *
  * Uncomment the following lines and start interpolating.
  * You can uncomment a line by removing the // at the start
  */
+const fullNameString = "my name is Saja Albinali";
+const yearOfBirthString = "I am 24";
+const hobbyString = "my hobby is swimming";
+
+console.log(fullNameString);
+console.log(yearOfBirthString);
+console.log(hobbyString);
 
 // const fullNameString = `My name is ${}`;
 // const yearOfBirthString =
 // const hobbyString =
-
-
-
-
 /**
  * Part 3: Re-assignment
  * Increment your hacker score
@@ -45,14 +49,18 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars++
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars--;
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars+=2;
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars-=2;
 }
