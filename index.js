@@ -10,7 +10,7 @@
  */
 
 // Part 1 answer 👇🏻 ...
-let fullName = "saja al bin ali";
+let fullName = "Saja AlBinAli";
 let yearOfBirth = 2000;
 let hobby = "swimming";
 let funFact = "i love movies";
@@ -29,9 +29,9 @@ const image =
  * Uncomment the following lines and start interpolating.
  * You can uncomment a line by removing the // at the start
  */
-const fullNameString = "my name is Saja Albinali";
-const yearOfBirthString = "I am 24";
-const hobbyString = "my hobby is swimming";
+const fullNameString = `${fullName}`";
+const yearOfBirthString = `${yearOfBirth}`;
+const hobbyString = `${hobby}`;
 
 console.log(fullNameString);
 console.log(yearOfBirthString);
